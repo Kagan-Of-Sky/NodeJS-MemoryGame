@@ -1,0 +1,76 @@
+/*
+Mark Kaganovsky
+100963794
+*/
+
+body {
+	background-color: #002766;
+}
+
+#header {
+	padding: 5px 40px;
+	width: fit-content;
+	background-color: #003a99;
+	color: #ffcb63;
+	border-radius: 20px;
+	margin: 10px auto 10px auto;
+}
+
+#gameBoardContainer{
+	background-color: #003a99;
+	padding: 10px;
+	width: fit-content;
+	border-radius: 10px;
+	margin: 0 auto 20px auto;
+}
+
+.tile{
+	display: inline-block;
+	vertical-align:top;
+	background-color: black;
+	width: 75px;
+	height: 75px;
+	border: 5px solid white;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.tile:hover{
+	cursor: pointer;
+}
+
+#gameStatusContainer{
+	background-color: #003a99;
+	padding: 10px;
+	width: 600px;
+	margin: 0 auto 0 auto;
+	border-radius: 10px;
+}
+
+#gameStatus {
+	height: 200px;
+	overflow: auto;
+	background-color: white;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+.faceUpCard {
+	background-color: white;
+	border: 5px solid black;
+	color: black;
+	font-size: 60px;
+
+	/* Center text in the middle */
+	text-align: center;
+	vertical-align: middle;
+	line-height: 75px;
+}
+
+.faceUpCard:hover{
+	cursor: default;
+}
+
+.faceUpPermanent{
+	background-color: #9e9e9e;
+}
